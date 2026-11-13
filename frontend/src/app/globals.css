@@ -1,0 +1,13 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f1ea;
+  --ink: #1c2a1a;
+  --accent: #2f6b3a;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+body { margin: 0; background: var(--bg); color: var(--ink); }
+main { max-width: 960px; margin: 0 auto; padding: 3rem 1.25rem; }
+h1 { font-size: 2rem; margin: 0 0 0.5rem; }
+.sub { opacity: 0.8; }
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 2rem; }
+.card { background: white; border-radius: 12px; padding: 1rem 1.1rem; box-shadow: 0 1px 4px rgb(0 0 0 / 8%); }
